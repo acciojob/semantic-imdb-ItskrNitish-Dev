@@ -1,2 +1,115 @@
 
 /* Your CSS Code here. */
+
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #1e3a8a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+nav p {
+    color: #dbeafe;
+    margin-top: 10px;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+section,
+aside {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2,
+aside h2 {
+    color: #1e3a8a;
+    margin-bottom: 12px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+blockquote {
+    border-left: 5px solid #f59e0b;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-size: 22px;
+    font-style: italic;
+    color: #92400e;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+}
